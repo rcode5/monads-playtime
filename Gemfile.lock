@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.1.10)
+    dry-core (1.0.0)
+      concurrent-ruby (~> 1.0)
+      zeitwerk (~> 2.6)
+    dry-monads (1.6.0)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 1.0, < 2)
+      zeitwerk (~> 2.6)
+    zeitwerk (2.6.6)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  dry-monads
+
+RUBY VERSION
+   ruby 2.7.6p219
+
+BUNDLED WITH
+   2.3.26
